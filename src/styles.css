@@ -1,0 +1,31 @@
+body{
+  background-color: #85F7AB;
+  font-style: oblique;
+}
+img{
+  /* max-width: auto; */
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.pokeDisplay {
+  border: 2px solid black;
+
+}
+#pokeSprite{
+  background-color: #F7AF85;
+  height: 400px;
+}
+
+#pokeDisplayText {
+  font-variant: small-caps;
+}
+
+#errorMessage{
+  display: none;
+}
+#noExist {
+  display: none;
+}

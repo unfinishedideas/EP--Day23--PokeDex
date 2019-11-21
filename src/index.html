@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PokeDex</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="pokeForm" action="index.html" method="post">
+        <label for="pokemonInput">Name a Pokemon: </label>
+        <input type="text" id="pokemonInput">
+        <button type="submit" name="button" class="btn">Submit</button>
+      </form>
+      <div id="errorMessage">
+        <h3>Please enter a valid Poke or ID</h3>
+      </div>
+      <h3 id="noExist">Doesn't Exist!</h3>
+      <div class="pokeDisplay">
+        <h2 id="pokeDisplayText">PokeDisplay</h2>
+        <div id="pokeSprite"><!-- sprite goes here--></div>
+        <h2 id="name"><!-- name goes here --></h2>
+        <h3>Base Stats</h3>
+        <ul id="statsList">
+
+        </ul>
+        <h3>Games Appeared In:</h3>
+        <ul id="gamesList">
+        </ul>
+        <h3>Type(s)</h3>
+        <ul id="typesList">
+        </ul>
+      </div>
+
+    </div> <!-- close container -->
+  </body>
+</html>
