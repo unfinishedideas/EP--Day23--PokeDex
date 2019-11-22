@@ -49,7 +49,7 @@ $(document).ready(function(){
         $(".pokeDisplay").hide();
       } else if (response === "Doesn't Exist"){
         $("#noExist").show();
-            $(".pokeDisplay").hide();
+        $(".pokeDisplay").hide();
       } else {
         getElements(response);
         $("#pokemonInput").val("");
